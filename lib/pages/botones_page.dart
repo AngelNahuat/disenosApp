@@ -119,6 +119,7 @@ class BotonesPage extends StatelessWidget {
     );
   }
 
+//
   Widget _crearBotonRedondeado(Color color, IconData icono, String texto) {
     return ClipRect(
       child: BackdropFilter(
